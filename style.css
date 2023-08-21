@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;   
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0px auto;    
+    font-family:sans-serif;
+    width: 80%;
+    color: rgb(2, 32, 32);
+    margin-top: 5px;
+    }
+       
+    nav img{
+        width: 200px;
+        
+    }
+    
+    nav ul{
+        display: flex; 
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        width:50%;
+        font-size: 15px; 
+        cursor: pointer;
+        margin-left: 20%;
+        /* font: weight 500px; */
+              
+    }
+    nav li:hover{
+        color:brown;
+    
+    }
+    .li1{
+        text-decoration: none;
+        color: black;
+    }
+.bu{
+    background-color: black;
+    color: azure;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.sm{
+    background-color: rgb(247, 106, 106);
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;    
+    color: white;
+}
+.he{
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ab a{
+    display: flex;
+    color: black;
+    
+    
+}
+.ab1 a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+    
+}
+.ab2 a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+.ab3 a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+.artists{
+    display: flex;
+    justify-content: space-between;
+/* align-content: center; */
+margin-right: 8%;
+margin-left: 5%;
+    
+}
+.dash img{
+    margin-left: 6%;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 50px;    
+}
+
+.see{
+    text-decoration: none;
+    color: black;
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 25px;
+    
+}
+.list {
+    display: flex;   
+    justify-content: center;}
+    .for1{
+        text-decoration: none;
+    }
+    .list1{
+        display: flex;
+        justify-content: center;
+    }
+    .spot{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .spot a:hover{
+        scale: 1.1;
+    }
+    .radio{
+        border-radius: 10px;
+    }
+    @media all and (min-width:600px); header ,body{
+        background-color: aqua;
+    }
+        
+    }
+
+
+    }
+    
+        
+    
